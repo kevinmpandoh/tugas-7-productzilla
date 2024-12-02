@@ -30,7 +30,7 @@ jobs:
         run: docker build -t task-7 .
 
       - name: Run tests
-        run: docker run --rm task-5 npm test
+        run: docker run --rm task-7 npm test
 
 
   build:
