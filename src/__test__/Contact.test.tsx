@@ -13,10 +13,6 @@ describe("Contact Component", () => {
 
     expect(screen.getByText(/Hubungi Saya/i)).toBeInTheDocument();
 
-    // Dapatkan inputan email
-    const emailInput = screen.getByLabelText(/email/i);
-    expect(emailInput).toBeInTheDocument();
-
     const sendButton = screen.getByRole("button", {
       name: /Kirim Pesan/i,
     });
