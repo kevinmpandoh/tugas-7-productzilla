@@ -54,10 +54,14 @@ const Contact: React.FC = () => {
         {/* Formulir Kontak */}
         <form onSubmit={handleSubmit} className="grid gap-4">
           <div>
-            <label className="block text-sm font-medium text-gray-700">
+            <label
+              className="block text-sm font-medium text-gray-700"
+              htmlFor="name"
+            >
               Nama
             </label>
             <input
+              id="name"
               type="text"
               name="name"
               value={formData.name}

@@ -23,7 +23,7 @@ const Home: React.FC = () => {
               to={"/contact"}
               className="bg-white border border-purple-500 text-purple-500 px-4 py-2 rounded-md shadow-md hover:bg-gray-100 text-center"
             >
-              Hubungi Saya
+              Contact Me
             </Link>
           </div>
 

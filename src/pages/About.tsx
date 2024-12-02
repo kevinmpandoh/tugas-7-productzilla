@@ -11,7 +11,7 @@ const About: React.FC = () => {
         <div className="md:w-1/3 mb-6 md:mb-0 ">
           <img
             src="/about.jpg"
-            alt="Foto Tentang Saya"
+            alt="My Photo"
             className="rounded-lg shadow-md"
           />
         </div>
